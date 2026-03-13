@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Button } from './ui/button';
 import { Menu, X } from 'lucide-react';
-import logoImage from 'figma:asset/5a64a0b6854ab03f353085baaf6258d1589efeee.png';
+import logoImage from '../assets/5a64a0b6854ab03f353085baaf6258d1589efeee.png';
 
 export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

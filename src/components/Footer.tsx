@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { Button } from './ui/button';
 import { Input } from './ui/input';
 import { Shield, Lock, FileCheck } from 'lucide-react';
-import logoImage from 'figma:asset/5a64a0b6854ab03f353085baaf6258d1589efeee.png';
+import logoImage from '../assets/footer-image.png';
 
 export default function Footer() {
   return (
