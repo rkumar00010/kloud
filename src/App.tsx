@@ -11,10 +11,12 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
+import ScrollToTop from "./components/ScrollToTop";
 
 export default function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="min-h-screen bg-[#0A0F1E] text-white">
         <Navigation />
         <Routes>
